@@ -1,0 +1,274 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+ }
+
+ .card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow:  0px 0px 10px 2px black;
+    position: absolute;
+    top: 150px;
+    left: 190px;
+ }
+ .one {
+    position: absolute;
+    top: 165px;
+    left: 230px;
+ }
+
+ .one img {
+    width: 215px;
+ }
+
+ .small {
+    background-color: hsl(47, 88%, 63%);
+    width: 95px;
+    height: 20px;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+ }
+
+ .text1 {
+    position: absolute;
+    top: 303.5px;
+    left: 215px;
+    z-index: 1;
+    font-weight: bold;
+    font-family: 'Comfortaa';font-size: 13px;
+ }
+ 
+ .text2 {
+    position: absolute;
+    top: 330px;
+    left: 201px;
+    font-weight: bold;
+    font-family: 'Comfortaa';font-size: 10px;
+ }
+
+ .text3 {
+    position: absolute;
+    top: 360px;
+    left: 205px;
+    font-weight: bold;
+    font-family: 'Comfortaa';font-size: 16px;
+ }
+
+ .text4 {
+    position: absolute;
+    top: 398px;
+    left: 205px;
+    color: hsl(0, 0%, 7%);
+    font-family: 'Comfortaa';font-size: 11px;
+ }
+
+ .two {
+    position: absolute;
+    top: 475px;
+    left: 210px;
+ }
+
+ .two img {
+   width: 50px;
+ }
+
+ .name {
+    position: absolute;
+    top: 494px;
+    left: 278px;
+    font-weight: bold;
+    font-family: 'Comfortaa';font-size: 16px;
+ }
+
+ @media (max-width: 375px) {
+    body {
+        background-color: hsl(47, 88%, 63%);
+     }
+    
+     .card {
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        width: 250px;
+        height: 350px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow:  0px 0px 10px 2px black;
+        position: absolute;
+        top: 150px;
+        left: 190px;
+     }
+    
+     .one {
+        position: absolute;
+        top: 165px;
+        left: 230px;
+     }
+    
+     .one img {
+        width: 215px;
+     }
+    
+     .small {
+        background-color: hsl(47, 88%, 63%);
+        width: 95px;
+        height: 20px;
+        position: absolute;
+        top: 300px;
+        left: 200px;
+     }
+    
+     .text1 {
+        position: absolute;
+        top: 303.5px;
+        left: 215px;
+        z-index: 1;
+        font-weight: bold;
+        font-family: 'Comfortaa';font-size: 13px;
+     }
+     
+     .text2 {
+        position: absolute;
+        top: 330px;
+        left: 201px;
+        font-weight: bold;
+        font-family: 'Comfortaa';font-size: 10px;
+     }
+    
+     .text3 {
+        position: absolute;
+        top: 360px;
+        left: 205px;
+        font-weight: bold;
+        font-family: 'Comfortaa';font-size: 16px;
+     }
+    
+     .text4 {
+        position: absolute;
+        top: 398px;
+        left: 205px;
+        color: hsl(0, 0%, 7%);
+        font-family: 'Comfortaa';font-size: 11px;
+     }
+    
+     .two {
+        position: absolute;
+        top: 475px;
+        left: 210px;
+     }
+    
+     .two img {
+       width: 50px;
+     }
+    
+     .name {
+        position: absolute;
+        top: 494px;
+        left: 278px;
+        font-weight: bold;
+        font-family: 'Comfortaa';font-size: 16px;
+     }
+    
+ }
+
+ @media (min-width: 1440px) {
+    body {
+        background-color: hsl(47, 88%, 63%);
+     }
+    
+     .card {
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        width: 250px;
+        height: 350px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow:  0px 0px 10px 2px black;
+        position: absolute;
+        top: 150px;
+        left: 190px;
+     }
+    
+     .one {
+        position: absolute;
+        top: 165px;
+        left: 230px;
+     }
+    
+     .one img {
+        width: 215px;
+     }
+    
+     .small {
+        background-color: hsl(47, 88%, 63%);
+        width: 95px;
+        height: 20px;
+        position: absolute;
+        top: 300px;
+        left: 200px;
+     }
+    
+     .text1 {
+        position: absolute;
+        top: 303.5px;
+        left: 215px;
+        z-index: 1;
+        font-weight: bold;
+        font-family: 'Comfortaa';font-size: 13px;
+     }
+     
+     .text2 {
+        position: absolute;
+        top: 330px;
+        left: 201px;
+        font-weight: bold;
+        font-family: 'Comfortaa';font-size: 10px;
+     }
+    
+     .text3 {
+        position: absolute;
+        top: 360px;
+        left: 205px;
+        font-weight: bold;
+        font-family: 'Comfortaa';font-size: 16px;
+     }
+    
+     .text4 {
+        position: absolute;
+        top: 398px;
+        left: 205px;
+        color: hsl(0, 0%, 7%);
+        font-family: 'Comfortaa';font-size: 11px;
+     }
+    
+     .two {
+        position: absolute;
+        top: 475px;
+        left: 210px;
+     }
+    
+     .two img {
+       width: 50px;
+     }
+    
+     .name {
+        position: absolute;
+        top: 494px;
+        left: 278px;
+        font-weight: bold;
+        font-family: 'Comfortaa';font-size: 16px;
+     }
+    
+ }
